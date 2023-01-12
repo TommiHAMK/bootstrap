@@ -1,0 +1,19 @@
+body {
+    
+}
+
+h1 
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.btn {
+    background-color: green;
+    border-color: green;
+    /* 
+       !important means that if there are multiple border-radius, 
+       this on is the most important
+       Use !important only if you can't override styles
+    */
+    border-radius: 0 !important;
+}
